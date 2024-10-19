@@ -1,0 +1,138 @@
+body {
+  background-color: black;
+  color: #00ff00; /* Neon green text */
+  font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
+  border: 2px solid #00ff00; /* Green border */
+  padding: 20px;
+  box-shadow: 0 0 15px #00ff00;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form input[type="text"] {
+  background-color: black;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: black;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+form button:hover {
+  background-color: #00ff00;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #00ff00;
+  text-align: left;
+}
+
+th {
+  background-color: #002200;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #001100;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #002200;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+code {
+  color: #00ff00;
+  background-color: black;
+  padding: 3px;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.terminal {
+  background-color: black;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+.cursor-blink {
+  display: inline-block;
+  background-color: #00ff00;
+  width: 10px;
+  height: 18px;
+  animation: blink 1s infinite step-start;
+}
+
+@keyframes blink {
+  50% {
+    background-color: black;
+  }
+}
+

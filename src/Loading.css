@@ -1,0 +1,21 @@
+/* Loading.css */
+.loading {
+  display: flex;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff00; /* Neon green text */
+}
+
+.loading-dot {
+  font-size: 2rem;
+  animation: blink 1s infinite;
+  margin: 0 2px;
+}
+
+@keyframes blink {
+  0%, 20% { opacity: 1; }
+  40% { opacity: 0; }
+  60% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
